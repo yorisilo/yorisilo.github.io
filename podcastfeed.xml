@@ -50,7 +50,7 @@
 
       <itunes:subtitle>卒研の中間発表です．直観主義論理におけるタブロー法による定理証明器のためのアルゴリズムの開発についての発表なのですが，ほぼ，直観主義論理とタブロー法の解説だけをしてるだけのアレな内容でお茶を濁したやつです．</itunes:subtitle>
 
-      <itunes:summary>卒研の中間発表です．直観主義論理におけるタブロー法による定理証明器のためのアルゴリズムの開発についての発表なのですが，ほぼ，直観主義論理とタブロー法の解説だけをしてるだけのアレな内容でお茶を濁したやつです．&lt;h1 id=&quot;section&quot;&gt;発表資料&lt;/h1&gt;
+      <description>卒研の中間発表です．直観主義論理におけるタブロー法による定理証明器のためのアルゴリズムの開発についての発表なのですが，ほぼ，直観主義論理とタブロー法の解説だけをしてるだけのアレな内容でお茶を濁したやつです．&lt;h1 id=&quot;section&quot;&gt;発表資料&lt;/h1&gt;
 &lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/42646656&quot; width=&quot;476&quot; height=&quot;400&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
 
 &lt;h3 id=&quot;memo&quot;&gt;memo&lt;/h3&gt;
@@ -63,13 +63,13 @@
   &lt;li&gt;&lt;a href=&quot;http://www.amazon.co.jp/%E8%AB%96%E7%90%86%E3%81%A8%E8%A8%88%E7%AE%97%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF-%E8%90%A9%E8%B0%B7-%E6%98%8C%E5%B7%B1/dp/4000061917&quot;&gt;論理と計算のしくみ&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://logic.cs.tsukuba.ac.jp/~kam/lecture/complogic2014/4.pdf&quot;&gt;命題論理の体系&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</itunes:summary>
+</description>>
 
       <itunes:image href="http://yorisilo.sakura.ne.jp/images/1400podcasticon.jpg" />
 
       <itunes:keywords>logic,study,intuition logic,math</itunes:keywords>
 
-      <pubDate>Sat, 13 Dec 2014 22:39:47 -0700</pubDate>
+      <pubDate>Sat, 13 Dec 2014 22:39:47 +0900</pubDate>
       <link>http://yorisilo.github.io/podcast/2014/12/13/ep0</link>
       <guid isPermaLink="true">http://yorisilo.github.io/podcast/2014/12/13/ep0</guid>
 
