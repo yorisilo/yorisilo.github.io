@@ -1,0 +1,11 @@
+#! /usr/bin/env zsh
+
+cd ~/Dropbox/programming/website/
+bundle exec jekyll b
+git add -A
+git commit -m "post update"
+cd _site
+git add -A
+git commit -m "post update"
+git push uec master
+echo posted!!
