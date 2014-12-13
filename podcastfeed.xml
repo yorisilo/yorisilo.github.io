@@ -28,10 +28,11 @@
 
     <itunes:summary>sf，小説，Web，プログラミング，映画などについて臆面なく話していくポッドキャストです．</itunes:summary>
 
-    <itunes:category text="Comedy"/>
-    <itunes:category text="SF &amp; Culture"/>
     <itunes:category text="Technology"/>
+    <itunes:category text="SF &amp; Culture"/>
+    <itunes:category text="Comedy"/>
     <itunes:category text="Movie &amp; Film"/>
+
 
     <itunes:owner>
       <itunes:name>yorisilo</itunes:name>
