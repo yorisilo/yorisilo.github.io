@@ -1,0 +1,118 @@
+img.item {
+  width: 50px; }
+
+.item .fa-1,
+.item .cfa-2,
+.item .fa-3,
+.item .fa-4,
+.item .fa-5,
+.item .fa-6 {
+  margin-right: 0; }
+
+.item .fa-2 {
+  font-size: 2em; }
+
+.item .fa-3 {
+  font-size: 4em; }
+
+.item .fa-4 {
+  font-size: 7em; }
+
+.item .fa-5 {
+  font-size: 12em; }
+
+.item .fa-6 {
+  font-size: 20em; }
+
+.item .fa-1,
+.item .fa-2,
+.item .fa-3,
+.item .fa-4,
+.item .fa-5,
+.item .fa-6 {
+  /* margin-right: 0.07142857em; */ }
+
+.btn-content {
+  /* margin-top: 15px; */
+  border: solid 2px #2c3e50;
+  font-size: 20px;
+  color: #2c3e50;
+  background: 0 0;
+  transition: all .3s ease-in-out; }
+
+.btn-content:hover,
+.btn-content:focus,
+.btn-content:active,
+.btn-content.active {
+  border: solid 2px #2c3e50;
+  color: #18bc9c;
+  background: #2c3e50; }
+
+hr.bolt-light,
+hr.bolt-primary {
+  margin: 25px auto 30px;
+  padding: 0;
+  max-width: 250px;
+  border: 0;
+  border-top: solid 5px;
+  text-align: center; }
+
+hr.bolt-light:after,
+hr.bolt-primary:after {
+  content: "\f0e7";
+  display: inline-block;
+  position: relative;
+  top: -.8em;
+  padding: 0 .25em;
+  font-family: FontAwesome;
+  font-size: 2em; }
+
+hr.bolt-light {
+  border-color: #fff; }
+
+hr.bolt-light:after {
+  color: #fff;
+  background-color: #18bc9c; }
+
+hr.bolt-primary {
+  border-color: #2c3e50; }
+
+hr.bolt-primary:after {
+  color: #2c3e50;
+  background-color: #fff; }
+
+header.post-header {
+  margin-bottom: 30px;
+  padding-top: 0;
+  padding-bottom: 0; }
+
+header.landing-header {
+  margin-bottom: 30px;
+  padding-top: 0;
+  padding-bottom: 0; }
+
+header.page-header {
+  margin-bottom: 30px;
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.post-description {
+  font-size: 15px;
+  letter-spacing: -1px; }
+
+.episode-info {
+  margin-top: 7px;
+  font-size: 15px;
+  text-align: right; }
+
+.footer-site-side h2 {
+  color: #fff;
+  font-size: 15px;
+  font-style: strong;
+  margin-top: -10px; }
+.footer-site-side p {
+  color: #fff;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 15px; }

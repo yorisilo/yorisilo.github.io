@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>Episode 0 - from the nothing, with love</title>
+  <link rel="shortcut icon" type="image/x-icon" href="http://yorisilo.sakura.ne.jp/images/favicon.ico">
+  <link rel="icon" sizes="240x240" href="http://yorisilo.sakura.ne.jp/images/icon240.png">
+  <meta name="description" content="卒研の中間発表です．直観主義論理におけるタブロー法による定理証明器のためのアルゴリズムの開発についての発表なのですが，ほぼ，直観主義論理とタブロー法の解説だけをしてるだけのアレな内容でお茶を濁したやつです．">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/freelancer.css">
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="/assets/css/github.css">
+
+  <link rel="stylesheet" href="/assets/css/pygments.css">
+
+  <!-- media player -->
+  <!-- <script src="/assets/js/jquery.js"></script> -->
+  <script src="/assets/js/mediaelement-and-player.js"></script>
+  <link rel="stylesheet" href="/assets/css/mediaelementplayer.css" />
+
+
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- js -->
+  <!-- jQuery Version 1.11.0 -->
+  <script src="/assets/js/jquery-1.11.0.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="/assets/js/bootstrap.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="/assets/js/classie.js"></script>
+  <script src="/assets/js/cbpAnimatedHeader.js"></script>
+  <!-- Contact Form JavaScript -->
+  <script src="/assets/js/jqBootstrapValidation.js"></script>
+  <script src="/assets/js/contact_me.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src="/assets/js/freelancer.js"></script>
+
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+  <link rel="canonical" href="http://yorisilo.github.io/podcast/2014/12/13/epi0">
+  <link rel="alternate" type="application/atom+xml" title="Yorisilo 依り代" href="http://yorisilo.github.io/podcastfeed.xml" />
+</head>
+
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Yorisilo 依り代</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="/" ></a>
+        </li>
+        <li>
+          <a href="/me/"><i class="fa fa-male"></i>me</a>
+        </li>
+        <li>
+          <a href="/podcast/"><i class="fa fa-microphone"></i>Podcast</a>
+        </li>
+        <li>
+          <a href="/podcastfeed.xml"><i class="fa fa-rss"></i>rss</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-apple"></i>itunes</a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+
+
+
+    <header class="post-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="publish-tag">
+          <span class="fa fa-calendar"></span> 2014/12/13
+        </div>
+        <h1 class="post-title">Episode 0 - from the nothing, with love</h1>
+        <hr class="bolt-light">
+        <div class="col-lg-6 col-lg-offset-3">
+          <span class="skills">卒研の中間発表です．直観主義論理におけるタブロー法による定理証明器のためのアルゴリズムの開発についての発表なのですが，ほぼ，直観主義論理とタブロー法の解説だけをしてるだけのアレな内容でお茶を濁したやつです．</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-6 col-lg-offset-3">
+      <article class="col-md-12 col-xs-12 justified">
+
+        
+        <br/>
+        <audio id="player2" src="http://yorisilo.sakura.ne.jp/sounds/podcast/01presen.mp3" type="audio/mp3" controls="controls" style="width: 100%; height: 100%;">
+        </audio>
+        <script>
+          $('audio,video').mediaelementplayer();
+        </script>
+        <p class="episode-info">
+          <i class="fa fa-step-forward"></i> Time: 06:08 |
+          <a href="http://yorisilo.sakura.ne.jp/sounds/podcast/01presen.mp3"><i class="fa fa-download"></i> Download MP3 (<span class="audio-size" data-size="3678724">3.7MB</span>)</a>
+        </p>
+        <hr/>
+        
+
+        <h1 id="section">発表資料</h1>
+<iframe src="//www.slideshare.net/slideshow/embed_code/42646656" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
+<h3 id="memo">memo</h3>
+<p>なんかポッドキャストを始めようとせっせといろんなサイトを <del>パクって</del> 作ったのは良いけど，こんな時期に何やってんだろうか感が出てきたよ．次の回では，このポッドキャストで話していくこととか，このサイトをどうやって作ったかとかを話したい．# pdfにフォントを埋め込んでいなかったせいで，slide shareに上げたpdfが文字化けしまくってその解決に時間がかかったのが辛い．</p>
+
+<h2 id="show-notes">show notes</h2>
+<ul>
+  <li><a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.7751">A Tableau Decision Procedure for Propositional Intuitionistic Logic (2006)</a></li>
+  <li><a href="http://www.sciencedirect.com/science/article/pii/0304397579900069">Intuitionistic propositional logic is polynomial-space complete</a></li>
+  <li><a href="http://www.amazon.co.jp/%E8%AB%96%E7%90%86%E3%81%A8%E8%A8%88%E7%AE%97%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF-%E8%90%A9%E8%B0%B7-%E6%98%8C%E5%B7%B1/dp/4000061917">論理と計算のしくみ</a></li>
+  <li><a href="http://logic.cs.tsukuba.ac.jp/~kam/lecture/complogic2014/4.pdf">命題論理の体系</a></li>
+</ul>
+
+
+        <br/>
+        <h4>Comments:</h4>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+          /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+          var disqus_shortname = 'yorisilo';
+
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </article>
+
+      <div class="row">
+        <div class="col-sm-6 col-xs-6 text-left">
+          <ul class="pager">
+            
+            <li class="previous disabled"><a>← Previous</a></li>
+            
+          </ul>
+        </div>
+        <div class="col-sm-6 col-xs-6 text-right">
+          <ul class="pager">
+            
+            <li class="next disabled"><a>Next →</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div> <!-- content area column -->
+  </div> <!-- row  -->
+</div> <!-- container -->
+
+
+    <!-- Footer -->
+<footer class="text-center">
+  <div class="footer-above">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col col-md-4">
+          <div class="footer-site-side">
+            <h2>Twitter</h2>
+            <p>
+              感想や質問やなんやかんや等をハッシュタグ<a href="https://twitter.com/search?q=%23yorisilofm">#yorisilofm</a>までお寄せいただけると嬉しいです．
+            </p>
+          </div>
+        </div>
+        <div class="footer-col col-md-4">
+          <ul class="list-inline">
+            <li>
+              <a href="http://twitter.com/yorisilo" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/yorisilo" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+            </li>
+            <li>
+              <a href="http://yorisilo.hatenablog.com" class="btn-social btn-outline"><i class="fa fa-fw fa-question"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col col-md-4">
+          <div class="footer-site-side">
+            <h2>Subscribe</h2>
+            <p>
+              RSSを購読すると新しいポッドキャストの投稿を自動でダウンロード，再生できます．
+            </p>
+            <ul class="list-unstyled">
+              <li>
+                <a href="/podcastfeed.xml"><i class="fa fa-rss"></i> RSS</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-apple"></i> iTunes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-below">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          yorisilo site is inspired by <a href="http://spinb.in/">spinb.in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- js -->
+<!-- jQuery Version 1.11.0 -->
+<script src="/assets/js/jquery-1.11.0.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="/assets/js/bootstrap.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="/assets/js/classie.js"></script>
+<script src="/assets/js/cbpAnimatedHeader.js"></script>
+<!-- Contact Form JavaScript -->
+<script src="/assets/js/jqBootstrapValidation.js"></script>
+<script src="/assets/js/contact_me.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="/assets/js/freelancer.js"></script>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57562325-1', 'http://yorisilo.github.io');
+  ga('send', 'pageview');
+</script>
+
+  </body>
+</html>

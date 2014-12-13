@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/">
+
+  <channel>
+
+    <title>Yorisilo 依り代</title>
+
+    <description>sf，小説，Web，プログラミング，映画などについて臆面なく話していくポッドキャストです．</description>
+
+    <link>http://yorisilo.github.io</link>
+
+    <copyright>&#xA9; 2014 yorisilo  </copyright>
+
+    <media:thumbnail url="http://yorisilo.sakura.ne.jp/images/icon240.png" />
+
+    <media:keywords>yorisilo,yorishiro,sf,SF,programming,mrsgrundy,japan,jp,comedy,talk,technology,tech,web,radio</media:keywords>
+
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
+
+    <itunes:author>yorisilo</itunes:author>
+
+    <itunes:image href="http://yorisilo.sakura.ne.jp/images/1400podcasticon.jpg" />
+
+    <itunes:keywords>yorisilo,yorishiro,sf,SF,programming,mrsgrundy,japan,jp,comedy,talk,technology,tech,web,radio</itunes:keywords>
+
+    <itunes:subtitle>A Podcast by yorisilo. Talking about sf, tech, books, snob stuff...</itunes:subtitle>
+
+    <itunes:summary>sf，小説，Web，プログラミング，映画などについて臆面なく話していくポッドキャストです．</itunes:summary>
+
+    <itunes:category text="Comedy"/>
+    <itunes:category text="SF &amp; Culture"/>
+    <itunes:category text="Technology"/>
+    <itunes:category text="Movie &amp; Film"/>
+
+    <itunes:owner>
+      <itunes:name>yorisilo</itunes:name>
+      <itunes:email>yorisilo@gmail.com</itunes:email>
+    </itunes:owner>
+
+    <language>ja</language>
+
+
+    
+    <item>
+
+      <title>Episode 0 - from the nothing, with love</title>
+      <itunes:author>yorisilo</itunes:author>
+
+      <itunes:subtitle>卒研の中間発表です．直観主義論理におけるタブロー法による定理証明器のためのアルゴリズムの開発についての発表なのですが，ほぼ，直観主義論理とタブロー法の解説だけをしてるだけのアレな内容でお茶を濁したやつです．</itunes:subtitle>
+
+      <itunes:summary>&lt;h1 id=&quot;section&quot;&gt;発表資料&lt;/h1&gt;
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/42646656&quot; width=&quot;476&quot; height=&quot;400&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;memo&quot;&gt;memo&lt;/h3&gt;
+&lt;p&gt;なんかポッドキャストを始めようとせっせといろんなサイトを &lt;del&gt;パクって&lt;/del&gt; 作ったのは良いけど，こんな時期に何やってんだろうか感が出てきたよ．次の回では，このポッドキャストで話していくこととか，このサイトをどうやって作ったかとかを話したい．# pdfにフォントを埋め込んでいなかったせいで，slide shareに上げたpdfが文字化けしまくってその解決に時間がかかったのが辛い．&lt;/p&gt;
+
+&lt;h2 id=&quot;show-notes&quot;&gt;show notes&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.7751&quot;&gt;A Tableau Decision Procedure for Propositional Intuitionistic Logic (2006)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/0304397579900069&quot;&gt;Intuitionistic propositional logic is polynomial-space complete&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.amazon.co.jp/%E8%AB%96%E7%90%86%E3%81%A8%E8%A8%88%E7%AE%97%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF-%E8%90%A9%E8%B0%B7-%E6%98%8C%E5%B7%B1/dp/4000061917&quot;&gt;論理と計算のしくみ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://logic.cs.tsukuba.ac.jp/~kam/lecture/complogic2014/4.pdf&quot;&gt;命題論理の体系&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</itunes:summary>
+
+      <itunes:image href="http://yorisilo.sakura.ne.jp/images/1400podcasticon.jpg" />
+
+      <itunes:keywords>logic,study,intuition logic,math</itunes:keywords>
+
+      <pubDate>Sat, 13 Dec 2014 07:28:24 -0700</pubDate>
+      <link>http://yorisilo.github.io/podcast/2014/12/13/epi0</link>
+      <guid isPermaLink="true">http://yorisilo.github.io/podcast/2014/12/13/epi0</guid>
+
+      <itunes:duration>06:08</itunes:duration>
+
+      <enclosure url="http://yorisilo.sakura.ne.jp/sounds/podcast/01presen.mp3" length="3678724" type="audio/mpeg" />
+
+    </item>
+
+    
+
+  </channel>
+
+</rss>
