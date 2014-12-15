@@ -6,9 +6,14 @@
 
     <title>Yorisilo 依り代</title>
 
-    <description>sf，小説，Web，プログラミング，映画などについて臆面なく話していくポッドキャストです．</description>
+    <description>sf，小説，Web，プログラミング，映画などについて臆面なく話していくポッドキャストです．
+</description>
+
+    <generator>Jekyll v2.5.2</generator>
 
     <link>http://yorisilo.github.io</link>
+
+    <atom:link href="http://yorisilo.github.io/podcaastfeed.xml" rel="self" type="application/rss+xml"/>
 
     <copyright>&#xA9; 2014 yorisilo  </copyright>
 
@@ -24,9 +29,11 @@
 
     <itunes:keywords>yorisilo,yorishiro,sf,SF,programming,mrsgrundy,japan,jp,comedy,talk,technology,tech,web,radio</itunes:keywords>
 
-    <itunes:subtitle>A Podcast by yorisilo. Talking about sf, tech, books, snob stuff...</itunes:subtitle>
+    <itunes:subtitle>A Podcast by yorisilo. Talking about sf, tech, books, snob stuff...
+</itunes:subtitle>
 
-    <itunes:summary>sf，小説，Web，プログラミング，映画などについて臆面なく話していくポッドキャストです．</itunes:summary>
+    <itunes:summary>sf，小説，Web，プログラミング，映画などについて臆面なく話していくポッドキャストです．
+</itunes:summary>
 
     <itunes:category text="Technology"/>
     <itunes:category text="SF &amp; Culture"/>
