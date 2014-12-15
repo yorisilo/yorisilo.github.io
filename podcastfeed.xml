@@ -13,7 +13,7 @@
 
     <link>http://yorisilo.github.io</link>
 
-    <atom:link href="http://yorisilo.github.io/podcaastfeed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="http://yorisilo.github.io/podcastfeed.xml" rel="self" type="application/rss+xml"/>
 
     <copyright>&#xA9; 2014 yorisilo  </copyright>
 
@@ -53,9 +53,6 @@
     <item>
 
       <title>Episode 0 - from the nothing, with love</title>
-      <itunes:author>yorisilo</itunes:author>
-
-      <itunes:subtitle>卒研の中間発表です．直観主義論理におけるタブロー法による定理証明器のためのアルゴリズムの開発についての発表なのですが，ほぼ，直観主義論理とタブロー法の解説だけをしてるだけのアレな内容でお茶を濁したやつです．</itunes:subtitle>
 
       <description>卒研の中間発表です．直観主義論理におけるタブロー法による定理証明器のためのアルゴリズムの開発についての発表なのですが，ほぼ，直観主義論理とタブロー法の解説だけをしてるだけのアレな内容でお茶を濁したやつです．&lt;h1 id=&quot;section&quot;&gt;発表資料&lt;/h1&gt;
 &lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/42646656&quot; width=&quot;476&quot; height=&quot;400&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
@@ -73,20 +70,23 @@ pdfにフォントを埋め込んでいなかったせいで，slide shareに上
 &lt;/ul&gt;
 </description>
 
+      <pubDate>Sat, 13 Dec 2014 22:39:47 +0900</pubDate>
+      <link>http://yorisilo.github.io/podcast/2014/12/13/ep0</link>
+      <guid isPermaLink="true">http://yorisilo.github.io/podcast/2014/12/13/ep0</guid>
+
+      <itunes:author>yorisilo</itunes:author>
+
       <itunes:image href="http://yorisilo.sakura.ne.jp/images/1400podcasticon.jpg" />
 
       <itunes:keywords>logic,study,intuition logic,math</itunes:keywords>
 
-      <pubDate>Sat, 13 Dec 2014 22:39:47 +0900</pubDate>
-      <link>http://yorisilo.github.io/podcast/2014/12/13/ep0</link>
-      <guid isPermaLink="true">http://yorisilo.github.io/podcast/2014/12/13/ep0</guid>
+      <itunes:subtitle>卒研の中間発表です．直観主義論理におけるタブロー法による定理証明器のためのアルゴリズムの開発についての発表なのですが，ほぼ，直観主義論理とタブロー法の解説だけをしてるだけのアレな内容でお茶を濁したやつです．</itunes:subtitle>
 
       <itunes:duration>08:03</itunes:duration>
 
       <enclosure url="http://yorisilo.sakura.ne.jp/sounds/podcast/ep0.mp3" length="3868338" type="audio/mpeg" />
 
     </item>
-
     
 
   </channel>
