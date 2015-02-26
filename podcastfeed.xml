@@ -9,7 +9,7 @@
     <description>sf，小説，Web，プログラミング，映画，研究生活などについて臆面なく話していくポッドキャストです．
 </description>
 
-    <generator>Jekyll v2.5.2</generator>
+    <generator>Jekyll v2.5.3</generator>
 
     <link>http://yorisilo.github.io</link>
 
@@ -52,6 +52,57 @@
     
     <item>
 
+      <title>Episode 1 - Imaginary people</title>
+
+      <description>映画感想回です．依り代（yorisilo）と榊(sakaki)がネタバレ全開でラバー(Rubber)と悪魔の椅子(The devil&#39;s chair)についてやいのやいのしゃべっています．両方ともメタフィクション的な要素がある作品です．&lt;h1 id=&quot;starring&quot;&gt;Starring&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://twitter.com/yorisilo&quot;&gt;依り代&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://twitter.com/No_Yes_Hey&quot;&gt;榊&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;memo&quot;&gt;Memo&lt;/h1&gt;
+&lt;p&gt;第三者を意識して話すってのは楽しいけど難しい．
+生音声を編集している時に一番つらいのは自分の声を聞きまくるということである．
+これから，その行為に慣れていかなきゃならないのか・・・．
+先が思いやられる．
+あと昔から思ってるんですけど，というか自分の声を録音等によって第三者として聞いたことのある人は誰もが思うことなのですけど頭蓋骨に響いて耳に届いている声はこんな声じゃないのよーっていうやつ．
+とにかく，現実を受け入れる体制を整えたい．
+それと，滑舌を改善しなくては．
+口ぐせなのか &lt;strong&gt;まあ&lt;/strong&gt; っていいすぎ&lt;/p&gt;
+
+&lt;p&gt;podcast内で，映画のあらすじ等間違っている箇所がいくつかあるかと思いますので，先に謝っておきます．すみません．
+Rubberの感想内で言ってる砂漠って荒野のこと？とか．
+初めて殺した生き物は，さそりだろ？初めて動物を殺したってことか？とか．
+あと他には，Rubber君（仮名）が自分のことを人間ではなくタイヤなのだと知ってしまった後に，自分と同じ形をしたタイヤたちが文字通りゴミのように焼かれるのをフェンス越しに見続けるRubber君（仮名）の哀愁漂う姿には触れないのか！？とか．とか．とか．&lt;/p&gt;
+
+&lt;p&gt;ってか早速前回の予告をぶっちぎってしまった．このサイトをどう作ったかとかは今度話そう．&lt;/p&gt;
+
+&lt;h1 id=&quot;show-notes&quot;&gt;Show notes&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.amazon.co.jp/%E6%82%AA%E9%AD%94%E3%81%AE%E6%A4%85%E5%AD%90-DVD-%E3%83%87%E3%83%B4%E3%82%A3%E3%83%83%E3%83%89%E3%83%BB%E3%82%AC%E3%83%B3%E3%83%88/dp/B001UPLGQG&quot;&gt;悪魔の椅子のamazonレビュー&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%90%E3%83%BC_%28%E6%98%A0%E7%94%BB%29&quot;&gt;Wikipedia:Rubber&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+http://yorisilo.github.io/podcast/2015/02/26/ep1</description>
+      <pubDate>Thu, 26 Feb 2015 12:05:06 +0900</pubDate>
+      <link>http://yorisilo.github.io/podcast/2015/02/26/ep1</link>
+      <guid isPermaLink="true">http://yorisilo.github.io/podcast/2015/02/26/ep1</guid>
+
+      <itunes:author>yorisilo</itunes:author>
+
+      <itunes:image href="http://yorisilo.sakura.ne.jp/images/1400podcasticon.jpg" />
+
+      <itunes:keywords>movie,horror,Rubber,The devil&#39;s chair</itunes:keywords>
+
+      <itunes:subtitle>映画感想回です．依り代（yorisilo）と榊(sakaki)がネタバレ全開でラバー(Rubber)と悪魔の椅子(The devil&#39;s chair)についてやいのやいのしゃべっています．両方ともメタフィクション的な要素がある作品です．</itunes:subtitle>
+
+      <itunes:duration>30:33</itunes:duration>
+
+      <enclosure url="http://yorisilo.sakura.ne.jp/sounds/podcast/ep1.mp3" length="29484493" type="audio/mpeg" />
+
+    </item>
+    
+    <item>
+
       <title>Episode 0 - from the nothing, with love</title>
 
       <description>卒研の中間発表です．直観主義命題論理におけるタブロー法による定理証明器のためのアルゴリズムの開発についての発表なのですが，ほぼ，直観主義命題論理とタブロー法の解説だけをしてるだけのアレな内容でお茶を濁したやつです．&lt;h1 id=&quot;section&quot;&gt;発表資料&lt;/h1&gt;
@@ -69,7 +120,6 @@ pdfにフォントを埋め込んでいなかったせいで，slide shareに上
   &lt;li&gt;&lt;a href=&quot;http://logic.cs.tsukuba.ac.jp/~kam/lecture/complogic2014/4.pdf&quot;&gt;命題論理の体系&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 http://yorisilo.github.io/podcast/2014/12/13/ep0</description>
-
       <pubDate>Sat, 13 Dec 2014 22:39:47 +0900</pubDate>
       <link>http://yorisilo.github.io/podcast/2014/12/13/ep0</link>
       <guid isPermaLink="true">http://yorisilo.github.io/podcast/2014/12/13/ep0</guid>
