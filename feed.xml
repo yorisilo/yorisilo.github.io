@@ -1,80 +1,30 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yorisilo 依り代</title>
-    <description>A Podcast by yorisilo. Talking about sf, tech, books, snob stuff...
-</description>
-    <link>http://yorisilo.github.io/</link>
-    <atom:link href="http://yorisilo.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 26 Feb 2015 14:46:26 +0900</pubDate>
-    <lastBuildDate>Thu, 26 Feb 2015 14:46:26 +0900</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
-    
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    {% for post in site.posts limit:10 %}
       <item>
-        <title>Episode 1 - Imaginary people</title>
-        <description>&lt;h1 id=&quot;starring&quot;&gt;Starring&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://twitter.com/yorisilo&quot;&gt;依り代&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://twitter.com/No_Yes_Hey&quot;&gt;榊&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;memo&quot;&gt;Memo&lt;/h1&gt;
-&lt;p&gt;第三者を意識して話すってのは楽しいけど難しい．
-生音声を編集している時に一番つらいのは自分の声を聞きまくるということである．
-これから，その行為に慣れていかなきゃならないのか・・・．
-先が思いやられる．
-あと昔から思ってるんですけど，というか自分の声を録音等によって第三者として聞いたことのある人は誰もが思うことなのですけど頭蓋骨に響いて耳に届いている声はこんな声じゃないのよーっていうやつ．
-とにかく，現実を受け入れる体制を整えたい．
-それと，滑舌を改善しなくては．
-口ぐせなのか &lt;strong&gt;まあ&lt;/strong&gt; っていいすぎ&lt;/p&gt;
-
-&lt;p&gt;podcast内で，映画のあらすじ等間違っている箇所がいくつかあるかと思いますので，先に謝っておきます．すみません．
-Rubberの感想内で言ってる砂漠って荒野のこと？とか．
-初めて殺した生き物は，さそりだろ？初めて動物を殺したってことか？とか．
-あと他には，Rubber君（仮名）が自分のことを人間ではなくタイヤなのだと知ってしまった後に，自分と同じ形をしたタイヤたちが文字通りゴミのように焼かれるのをフェンス越しに見続けるRubber君（仮名）の哀愁漂う姿には触れないのか！？とか．とか．とか．&lt;/p&gt;
-
-&lt;p&gt;ってか早速前回の予告をぶっちぎってしまった．このサイトをどう作ったかとかは今度話そう．&lt;/p&gt;
-
-&lt;h1 id=&quot;show-notes&quot;&gt;Show notes&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.amazon.co.jp/%E6%82%AA%E9%AD%94%E3%81%AE%E6%A4%85%E5%AD%90-DVD-%E3%83%87%E3%83%B4%E3%82%A3%E3%83%83%E3%83%89%E3%83%BB%E3%82%AC%E3%83%B3%E3%83%88/dp/B001UPLGQG&quot;&gt;悪魔の椅子のamazonレビュー&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%90%E3%83%BC_%28%E6%98%A0%E7%94%BB%29&quot;&gt;Wikipedia:Rubber&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 26 Feb 2015 12:05:06 +0900</pubDate>
-        <link>http://yorisilo.github.io/podcast/2015/02/26/ep1</link>
-        <guid isPermaLink="true">http://yorisilo.github.io/podcast/2015/02/26/ep1</guid>
-        
-        
-        <category>podcast</category>
-        
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        {% for tag in post.tags %}
+        <category>{{ tag | xml_escape }}</category>
+        {% endfor %}
+        {% for cat in post.categories %}
+        <category>{{ cat | xml_escape }}</category>
+        {% endfor %}
       </item>
-    
-      <item>
-        <title>Episode 0 - from the nothing, with love</title>
-        <description>&lt;h1 id=&quot;section&quot;&gt;発表資料&lt;/h1&gt;
-&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/42646656&quot; width=&quot;476&quot; height=&quot;400&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&quot;memo&quot;&gt;memo&lt;/h3&gt;
-&lt;p&gt;なんかポッドキャストを始めようとせっせと &lt;del&gt;いろんなサイトをパクって&lt;/del&gt; 作ったのは良いけど，こんな時期に何やってんだろうか感が出てきたよ．次の回では，このポッドキャストで話していくこととか，このサイトをどうやって作ったかとかを話したい．
-pdfにフォントを埋め込んでいなかったせいで，slide shareに上げたpdfが文字化けしまくってその解決に時間がかかったのが辛い．&lt;/p&gt;
-
-&lt;h2 id=&quot;show-notes&quot;&gt;show notes&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.7751&quot;&gt;A Tableau Decision Procedure for Propositional Intuitionistic Logic (2006)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/0304397579900069&quot;&gt;Intuitionistic propositional logic is polynomial-space complete&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.amazon.co.jp/%E8%AB%96%E7%90%86%E3%81%A8%E8%A8%88%E7%AE%97%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF-%E8%90%A9%E8%B0%B7-%E6%98%8C%E5%B7%B1/dp/4000061917&quot;&gt;論理と計算のしくみ&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://logic.cs.tsukuba.ac.jp/~kam/lecture/complogic2014/4.pdf&quot;&gt;命題論理の体系&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 13 Dec 2014 22:39:47 +0900</pubDate>
-        <link>http://yorisilo.github.io/podcast/2014/12/13/ep0</link>
-        <guid isPermaLink="true">http://yorisilo.github.io/podcast/2014/12/13/ep0</guid>
-        
-        
-        <category>podcast</category>
-        
-      </item>
-    
+    {% endfor %}
   </channel>
 </rss>

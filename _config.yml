@@ -1,0 +1,43 @@
+# Site settings
+title: "Yorisilo 依り代"
+description: >
+  A Podcast by yorisilo. Talking about sf, tech, books, snob stuff...
+descriptionja: >
+  sf，小説，Web，プログラミング，映画，研究生活などについて臆面なく話していくポッドキャストです．
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yorisilo.github.io" # the base hostname & protocol for your site
+#url: "http://localhost:4000" # the base hostname & protocol for your site
+
+# image
+bigimage: http://yorisilo.sakura.ne.jp/images/1400podcasticon.jpg
+thumbnail: http://yorisilo.sakura.ne.jp/images/icon240.png
+
+# keywords
+keywords: yorisilo,yorishiro,sf,SF,programming,mrsgrundy,japan,jp,comedy,talk,technology,tech,web,radio
+
+# Permalinks
+permalink:        /podcast/:year/:month/:day/:title
+
+
+# Author Details
+author: "yorisilo"
+twitter: "yorisilo"
+github:  "yorisilo"
+hatena: "yorisilo"
+email: "yorisilo@gmail.com"
+ga: "UA-57562325-1"
+disqus: "yorisilo"
+
+
+# Configurations
+markdown: kramdown
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+highlighter: pygments
+
+
+# Post Configurations
+paginate: 10 # Posts per page on the blog index
+paginate_path: '/podcast/page:num'
+destination: ./_site
+
+exclude: ["vendor","Gemfile","Gemfile.lock","LICENSE.md","README.md","deployPost","postcastfeed.xml", "post-format.md"]

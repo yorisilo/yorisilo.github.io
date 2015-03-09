@@ -1,122 +1,10 @@
-<!DOCTYPE html>
-<html lang="ja">
-
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" type="image/x-icon" href="http://yorisilo.sakura.ne.jp/images/favicon.ico">
-  <link rel="icon" sizes="240x240" href="http://yorisilo.sakura.ne.jp/images/icon240.png">
-  <title>Yorisilo</title>
-
-  <meta name="description" content="Home Page for yorisilo">
-  <meta name="keywords" content="yorisilo,podcast"/>
-
-  <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="/assets/css/freelancer.css">
-  <link rel="stylesheet" href="/assets/css/main.css">
-
-  <!-- Custom Fonts -->
-  <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/assets/css/github.css">
-  <link rel="stylesheet" href="/assets/css/pygments.css">
-
-  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-  <!-- js -->
-  <!-- jQuery Version 1.11.0 -->
-  <script src="/assets/js/jquery-1.11.0.js"></script>
-
-  <!-- media player -->
-  <!-- <script src="/assets/js/jquery.js"></script> -->
-  <script src="/assets/js/mediaelement-and-player.js"></script>
-  <link rel="stylesheet" href="/assets/css/mediaelementplayer.css" />
-
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
-
-  <link rel="canonical" href="http://yorisilo.github.io/">
-  <link rel="alternate" type="application/atom+xml" title="Yorisilo 依り代" href="http://yorisilo.github.io/podcastfeed.xml" />
-
-  <!-- Google Analytics -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-57562325-1', 'auto');
-    ga('send', 'pageview');
-
-  </script>
-</head>
-
-
-  <body>
-
-    <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header page-scroll">
-      <a class="navbar-brand" href="/">Yorisilo 依り代</a>
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="hidden">
-          <a href="/" ></a>
-        </li>
-        <li>
-          <a href="/me/"><i class="fa fa-male"></i>me</a>
-        </li>
-        <li>
-          <a href="/podcast/"><i class="fa fa-microphone"></i>Podcast</a>
-        </li>
-        <li>
-          <a href="/podcastfeed.xml"><i class="fa fa-rss"></i>rss</a>
-        </li>
-        <li>
-          <a href="https://itunes.apple.com/jp/podcast/yorisilo-yiri-dai/id951335287"><i class="fa fa-apple"></i>itunes</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
-
-<header class="site-header">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <!-- <img class="img-responsive" src="assets/img/profile.png" alt=""> -->
-        <div class="intro-text">
-          <span class="name">依り代</span>
-          <hr class="bolt-light">
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-
-
-
-    <div class="container">
+---
+layout: default
+title: Yorisilo
+description: Home Page for yorisilo
+keywords: yorisilo,podcast,依り代,依代,憑り代,憑代
+---
+<div class="container">
   <div class="row">
 
     <div class="col-lg-12 text-center">
@@ -129,7 +17,7 @@
 
       <div class="row">
         <div class="col-sm-6 text-center ">
-          <a href="/me/" class="btn btn-content">
+          <a href="{{site.baseurl}}/me/" class="btn btn-content">
             <div class="item">
               <i class="fa fa-male fa-5"></i>
             </div>
@@ -139,7 +27,7 @@
         </div>
 
         <div class="col-sm-6 text-center">
-          <a href="/podcast/" class="btn btn-content">
+          <a href="{{site.baseurl}}/podcast/" class="btn btn-content">
             <div class="item">
               <i class="fa fa-microphone fa-5"></i>
             </div>
@@ -153,81 +41,3 @@
 
   </div>
 </div>
-
-
-    <!-- Footer -->
-<footer class="text-center">
-  <div class="footer-above">
-    <div class="container">
-      <div class="row">
-        <div class="footer-col col-sm-4">
-          <div class="footer-site-side">
-            <h2>Hashtag</h2>
-            <p>
-              感想や質問やなんやかんや等をTwitterのハッシュタグ<a href="https://twitter.com/search?q=%23yorisilofm">#yorisilofm</a>までお寄せいただけると嬉しいです．
-            </p>
-          </div>
-        </div>
-        <div class="footer-col col-sm-4">
-          <div class="footer-site-side">
-            <ul class="list-inline">
-              <li>
-                <a href="http://twitter.com/yorisilo" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="https://github.com/yorisilo" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-              </li>
-              <li>
-                <a href="http://yorisilo.hatenablog.com" class="btn-social btn-outline"><i class="fa fa-fw fa-question"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="footer-col col-sm-4">
-          <div class="footer-site-side">
-            <h2>Subscribe</h2>
-            <p>
-              RSSを購読すると新しいポッドキャストの投稿を自動でダウンロード，再生できます．
-            </p>
-            <ul class="list-unstyled">
-              <li>
-                <a href="/podcastfeed.xml"><i class="fa fa-rss"></i> RSS</a>
-              </li>
-              <li>
-                <a href="https://itunes.apple.com/jp/podcast/yorisilo-yiri-dai/id951335287"><i class="fa fa-apple"></i> iTunes</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="footer-below">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          yorisilo site is inspired by <a href="http://spinb.in/">spinb.in</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-
-
-    <!-- js -->
-
-<!-- Bootstrap Core JavaScript -->
-<script src="/assets/js/bootstrap.min.js"></script>
-<!-- Plugin JavaScript -->
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-<script src="/assets/js/classie.js"></script>
-<script src="/assets/js/cbpAnimatedHeader.js"></script>
-<!-- Contact Form JavaScript -->
-<script src="/assets/js/jqBootstrapValidation.js"></script>
-<script src="/assets/js/contact_me.js"></script>
-<!-- Custom Theme JavaScript -->
-<script src="/assets/js/freelancer.js"></script>
-
-
-  </body>
-</html>
