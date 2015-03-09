@@ -16,8 +16,8 @@ thumbnail: http://yorisilo.sakura.ne.jp/images/icon240.png
 keywords: yorisilo,yorishiro,sf,SF,programming,mrsgrundy,japan,jp,comedy,talk,technology,tech,web,radio
 
 # Permalinks
-permalink:        /podcast/:year/:month/:day/:title
-
+#permalink: /podcast/:year/:month/:day/:title
+permalink: /podcast/:title
 
 # Author Details
 author: "yorisilo"
