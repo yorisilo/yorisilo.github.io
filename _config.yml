@@ -31,8 +31,8 @@ disqus: "yorisilo"
 
 # Configurations
 markdown: kramdown
-markdown_ext:  markdown,mkdown,mkdn,mkd,md
-highlighter: pygments
+markdown_ext: markdown,mkdown,mkdn,mkd,md
+highlighter: rouge
 
 
 # Post Configurations
