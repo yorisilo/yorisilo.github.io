@@ -17,7 +17,7 @@ keywords: yorisilo,yorishiro,sf,SF,programming,mrsgrundy,japan,jp,comedy,talk,te
 
 # Permalinks
 #permalink: /podcast/:year/:month/:day/:title
-permalink: /podcast/:title
+permalink: /podcast/:title/
 
 # Author Details
 author: "yorisilo"
