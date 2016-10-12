@@ -15,7 +15,9 @@ thumbnail: http://yorisilo.sakura.ne.jp/images/icon240.png
 # keywords
 keywords: yorisilo,yorishiro,sf,SF,programming,mrsgrundy,japan,jp,comedy,talk,technology,tech,web,radio
 
-# Permalinks
+# Permalinks _config.yml でのpermalink の設定は，_posts/以下に反映される．
+# _postsにあるファイルをどういう階層で出力するかをpermalinkの設定で行える．
+# 注意:_postsのものにしか適用されない！
 #permalink: /podcast/:year/:month/:day/:title
 permalink: /podcast/:title/
 
