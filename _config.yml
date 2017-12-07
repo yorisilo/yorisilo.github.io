@@ -41,5 +41,6 @@ highlighter: rouge
 paginate: 10 # Posts per page on the blog index
 paginate_path: '/podcast/page:num'
 destination: ./_site
+timezone: Asia/Tokyo
 
 exclude: ["vendor","Gemfile","Gemfile.lock","LICENSE.md","README.md","deployPost","postcastfeed.xml", "post-format.md"]
