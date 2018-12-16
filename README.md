@@ -35,11 +35,35 @@ audacity を使って編集する
 
 audacity でエンコードし、タグを付ける。
 
+* タグ情報の確認
+
+``` shell
+brew install ffmpeg id3lib
+ffprobe ep5.mp3
+id3info ep5.mp3
+```
+
+* タグ情報(文字)を音声ファイルに埋め込む
+
+``` shell
+brew install id3lib
+id3tag -a yorisilo -s "ep5 babadook" -A yorisilo ep5.mp3
+```
+
 | tag            | value        |
 | :---           | :---         |
 | アーティスト名 | yorisilo     |
 | トラック名     | ep5 babadook |
 | アルバム名     | yorisilo     |
+
+* 画像を音声ファイルに埋め込む
+
+``` shell
+brew install eye-d3
+eyed3 --add-image ./icon/1400podcasticon.jpg:FRONT_COVER ep5.mp3
+```
+
+[mp3 にアートワークをセットしたい - 答えは eyeD3 でした - ばかもりだし](http://baqamore.hatenablog.com/entry/2013/02/02/105544)
 
 ## 音声アップロード
 * ファイルサーバに音声をアップロードする
@@ -55,6 +79,24 @@ duck --upload example@example.sakura.ne.jp:/home/example/www/sounds/podcast/ ./e
 * `jekyll s ` で編集した記事が localhost で見れるようになる。 watch されているので、編集するたびに反映される。
 
 mp3 の情報を記事に反映させる
+
+* Dration の確認
+
+``` shell
+ffprobe ep5.mp3
+```
+
+* length の確認
+
+``` shell
+\ls -l ep5.mp3
+```
+
+* size の確認
+
+``` shell
+\ls -lh ep5.mp3
+```
 
 | tag       | value    | comments                         |
 | :---      | :---     | :---                             |
