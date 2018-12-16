@@ -104,7 +104,7 @@ ffprobe ep5.mp3
 | length:   | 15499668 | podcastfeed に必要               |
 | size:     | 15.5MB   | 記事内に記載するサイズとして扱う |
 
-github pages で jekyll (静的サイトジェネレーター) を使ってる。 gatsby + netlify を使ってみたいと思ってはいる。
+github pages で jekyll (静的サイトジェネレーター) を使ってる。  netlify + gatsby を使ってみたいと思ってはいる。
 
 ## 配信
 * git commit して git push するだけ
