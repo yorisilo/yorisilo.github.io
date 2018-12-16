@@ -33,6 +33,14 @@ audacity を使って編集する
 ## エンコード
 * `MP3 44.1kHz mono CBR 96kbps ~ 128kbps`
 
+audacity でエンコードし、タグを付ける。
+
+| tag            | value        |
+| :---           | :---         |
+| アーティスト名 | yorisilo     |
+| トラック名     | ep5 babadook |
+| アルバム名     | yorisilo     |
+
 ## 音声アップロード
 * ファイルサーバに音声をアップロードする
 sakura のレンタルサーバをファイルサーバーとして使っているので ftp でアップロードする (ex. cyber duck とか)
