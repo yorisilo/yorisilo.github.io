@@ -54,6 +54,14 @@ duck --upload example@example.sakura.ne.jp:/home/example/www/sounds/podcast/ ./e
 * `_posts` 以下にある過去の記事を参考にして、ポッドキャスト配信用の記事を markdown で作成する
 * `jekyll s ` で編集した記事が localhost で見れるようになる。 watch されているので、編集するたびに反映される。
 
+mp3 の情報を記事に反映させる
+
+| tag       | value    | comments                         |
+| :---      | :---     | :---                             |
+| duration: | "16:09"  | podcastfeed に必要               |
+| length:   | 15499668 | podcastfeed に必要               |
+| size:     | 15.5MB   | 記事内に記載するサイズとして扱う |
+
 jekyll (静的サイトジェネレーター) を使ってる。 netlify を使ってみたいと思ってはいる。
 
 ## 配信
